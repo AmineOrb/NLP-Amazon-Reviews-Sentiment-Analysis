@@ -1,0 +1,22 @@
+README - NLP Assessment 1
+
+This project compares sentiment classification using Keras Embedding, Word2Vec and GloVe on Amazon Fine Food Reviews.
+
+Files:
+- Mohamed_Amine_Elorabi_Assessment1.ipynb: Main notebook with data preparation, model training and evaluation.
+- model_results.csv: Recorded accuracy scores for the three embedding methods.
+- README.md: Full description, dataset links and execution instructions.
+- requirements.txt: List of required Python packages.
+- .gitignore: Prevents local large data and embedding files from being added by git.
+
+Data files not included:
+- Reviews.csv: Get it from https://www.kaggle.com/datasets/snap/amazon-fine-food-reviews
+- glove.6B.100d.txt: Get it from https://nlp.stanford.edu/projects/glove/
+
+How to run:
+1. Open the notebook in Google Colab or a compatible local Jupyter environment.
+2. Install dependencies listed in requirements.txt.
+3. Download Reviews.csv into the working directory. Skip the first two Colab upload/unzip cells if Reviews.csv is already present.
+4. Run the remaining cells in order. Obtain/extract GloVe vectors for the GloVe section.
+
+Refer to README.md for details.
