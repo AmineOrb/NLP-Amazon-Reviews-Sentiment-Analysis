@@ -1,0 +1,15 @@
+# Large input datasets and embedding vectors
+Reviews.csv
+Reviews.csv.zip
+glove.6B*.txt
+glove.6B.zip
+*.sqlite
+
+# Python/Jupyter local files
+.ipynb_checkpoints/
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.DS_Store
